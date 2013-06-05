@@ -1,0 +1,19 @@
+
+-----
+How to use.
+0.Install ode.
+1.Hit make at this folder.
+2.Include easyode.h to your source code.
+3.Compile with -I<path to ./include/> -L<path to ./lib> -leasyode flag and other.
+4.Exec your binary with -texturepath <path to texture> option.
+
+see also ./sample/Makefile
+
+The sample is in sample folder.
+make sample
+./sample/sample -texturepath <path to texture>
+./sample/sample13 -texturepath <path to texture>
+
+Path to textre is ode texture folder path.
+The folder consists sky.ppm, graund.ppm and other.
+
